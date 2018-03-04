@@ -14,6 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="top|start"
         android:text="Add Item"
+        android:textColor="@color/accent_dark"
         android:layout_marginLeft="10dp"
         android:textSize="30sp" />
 
@@ -29,7 +30,7 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:elevation="6dp"
-            app:backgroundTint="@color/colorAccent"
+            app:backgroundTint="@color/colorPrimaryLight"
             app:pressedTranslationZ="12dp"
             android:visibility="visible" />
 
@@ -39,7 +40,7 @@
             android:layout_height="80dp"
             android:layout_marginLeft="65dp"
             android:elevation="6dp"
-            app:backgroundTint="@color/colorAccent"
+            app:backgroundTint="@color/colorPrimary"
             app:pressedTranslationZ="12dp"
             android:visibility="visible" />
 
@@ -49,7 +50,7 @@
             android:layout_height="80dp"
             android:layout_marginLeft="65dp"
             android:elevation="6dp"
-            app:backgroundTint="@color/colorAccent"
+            app:backgroundTint="@color/secondaryColorLight"
             app:pressedTranslationZ="12dp"
             android:visibility="visible" />
     </LinearLayout>
@@ -91,7 +92,7 @@
             android:layout_gravity="bottom|right"
             android:layout_marginTop="15dp"
             android:background="@drawable/login_button_style"
-            android:backgroundTint="@color/colorAccent"
+            android:backgroundTint="@color/colorPrimary"
             android:layout_marginLeft="15dp"
             android:text="Done"
             android:textAllCaps="true"
