@@ -54,7 +54,6 @@ public class PageFragment extends android.support.v4.app.Fragment {
         theAdapter = new adapterList(this.getContext(), wishlist);
         listView.setAdapter(theAdapter);
 
-        wishListTitle = (TextView) view.findViewById(R.id.wish_list_title);
         bubbleStart = (FloatingActionButton) view.findViewById(R.id.bubble_open_start);
         bubble1 = (FloatingActionButton) view.findViewById(R.id.bubble_element1);
         bubble2 = (FloatingActionButton) view.findViewById(R.id.bubble_element2);
@@ -80,9 +79,6 @@ public class PageFragment extends android.support.v4.app.Fragment {
             //for(Item item: wishlist)
                 //theAdapter.add(item);
 
-
-
-            wishListTitle.setVisibility(View.VISIBLE);
 
             bubbleStart.setOnClickListener(new View.OnClickListener() {
                 @Override
